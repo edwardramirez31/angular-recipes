@@ -1,0 +1,14 @@
+<button
+  class="btn btn-primary"
+  (click)="showText = !showText; items.push(count); count = count + 1"
+>
+  Display settings
+</button>
+<p *ngIf="showText">Secret Password ****************</p>
+<p
+  *ngFor="let item of items; let i = index"
+  [ngStyle]="{ backgroundColor: i >= 5 ? 'blue' : 'transparent' }"
+  [ngClass]="{ 'text-white': i >= 5 }"
+>
+  {{ item }}
+</p>

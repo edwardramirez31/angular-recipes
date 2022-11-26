@@ -1,0 +1,12 @@
+<p>Error Warning!</p>
+<div class="d-flex flex-row">
+  <input [(ngModel)]="username" class="form-control" />
+  <button
+    [disabled]="!username"
+    (click)="onButtonClicked()"
+    class="btn btn-primary"
+  >
+    Reset Username
+  </button>
+</div>
+<p>{{ username }}</p>
