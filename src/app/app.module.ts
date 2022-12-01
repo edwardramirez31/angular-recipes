@@ -17,9 +17,13 @@ import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shoppin
 import { TodoComponent } from './todo/todo.component';
 import { TodoItemComponent } from './todo/todo-item/todo-item.component';
 import { TodoFormComponent } from './todo/todo-form/todo-form.component';
+import { NumbersComponent } from './numbers/numbers.component';
+import { OddComponent } from './numbers/odd/odd.component';
+import { EvenComponent } from './numbers/even/even.component';
+import { ControllerComponent } from './numbers/controller/controller.component';
 
 @NgModule({
-  declarations: [AppComponent, WarningComponent, SuccessComponent, DirectivesComponent, HeaderComponent, RecipesComponent, RecipesListComponent, RecipeItemComponent, RecipesDetailComponent, ShoppingComponent, ShoppingListComponent, ShoppingListEditComponent, TodoComponent, TodoItemComponent, TodoFormComponent],
+  declarations: [AppComponent, WarningComponent, SuccessComponent, DirectivesComponent, HeaderComponent, RecipesComponent, RecipesListComponent, RecipeItemComponent, RecipesDetailComponent, ShoppingComponent, ShoppingListComponent, ShoppingListEditComponent, TodoComponent, TodoItemComponent, TodoFormComponent, NumbersComponent, OddComponent, EvenComponent, ControllerComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
