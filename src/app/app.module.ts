@@ -14,9 +14,12 @@ import { RecipesDetailComponent } from './recipes/recipes-detail/recipes-detail.
 import { ShoppingComponent } from './shopping/shopping.component';
 import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shopping-list-edit.component';
+import { TodoComponent } from './todo/todo.component';
+import { TodoItemComponent } from './todo/todo-item/todo-item.component';
+import { TodoFormComponent } from './todo/todo-form/todo-form.component';
 
 @NgModule({
-  declarations: [AppComponent, WarningComponent, SuccessComponent, DirectivesComponent, HeaderComponent, RecipesComponent, RecipesListComponent, RecipeItemComponent, RecipesDetailComponent, ShoppingComponent, ShoppingListComponent, ShoppingListEditComponent],
+  declarations: [AppComponent, WarningComponent, SuccessComponent, DirectivesComponent, HeaderComponent, RecipesComponent, RecipesListComponent, RecipeItemComponent, RecipesDetailComponent, ShoppingComponent, ShoppingListComponent, ShoppingListEditComponent, TodoComponent, TodoItemComponent, TodoFormComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

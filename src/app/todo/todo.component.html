@@ -1,0 +1,9 @@
+<app-todo-form (taskAdded)="addNewTask($event)"></app-todo-form>
+<div class="list-group">
+  <app-todo-item
+    *ngFor="let task of tasks; let i = index"
+    [task]="{ index: i, title: task.title, text: task.text }"
+    (taskChanged)="editTaskText($event)"
+    (taskDeleted)="deleteTask($event)"
+  ></app-todo-item>
+</div>
